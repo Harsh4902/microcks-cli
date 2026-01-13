@@ -32,8 +32,8 @@ microcks [command] [flags]
 | `context`    | Manage CLI contexts (list, use, delete)                  | [`context`](documentation/cmd/context.md)       |
 | `start`      | Start a local Microcks instance via Docker/Podman        | [`start`](documentation/cmd/start.md)           |
 | `stop`       | Stop a local Microcks instance                           | [`stop`](documentation/cmd/stop.md)             |
-| `import`     | Import API spec files from local filesystem              | [`import`](documentation/cmd/import.md)         |
-| `import-url` | Import API spec files directly from a remote URL         | [`import-url`](documentation/cmd/import-url.md) |
+| `import`     | Import API spec files from local filesystem              | [`import`](documentation/cmd/import-dir.md)     |
+| `import-url` | Import API spec files directly from a remote URL         | [`import-url`](documentation/cmd/importURL.md)  |
 | `test`       | Run tests against a deployed API using selected runner   | [`test`](documentation/cmd/test.md)             |
 | `version`    | Print Microcks CLI version                               | [`version`](documentation/cmd/version.md)       |
 
